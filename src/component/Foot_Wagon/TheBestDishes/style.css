@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.TheBestDishes {
+    width: clamp(200px, 100%, 1480px);
+    margin: 0 auto;
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.TheBest {
+    width: 100%;
+    min-height: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.TheBest img {
+    width: clamp(200px, 100%, 961px);
+}
+
+.DisesData {
+    width: clamp(200px, 100%, 510px);
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 56px;
+    padding-right: 56px;
+    border-radius: 16px;
+
+    /* Shadow 2 */
+    box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28), 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+}
+
+.DisesData h2 {
+    color: #424242;
+    font-size: clamp(20px, 5vw, 48px);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.DisesData span {
+    color: #FFB30E;
+}
+
+.DisesData p {
+    color: rgba(97, 97, 97, 0.69);
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 19px;
+}
+
+.DisesData button {
+    width: clamp(200px, 100%, 401px);
+    height: 50px;
+    border-radius: 8px;
+    background: var(--yellow-button, linear-gradient(150deg, #FFB800 0%, #FF8A00 100%));
+
+    /* Button shadow ! */
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    color: #FFF;
+    text-align: center;
+    font-size: clamp(16px, 5vw, 18px);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+    border: unset;
+    margin-top: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .DisesData {
+        height: 360px;
+    }
+
+    .DisesData button {
+        margin-top: 40px;
+    }
+}

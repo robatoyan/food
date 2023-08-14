@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.FeaturedRestaurants {
+    width: clamp(200px, 100%, 1476px);
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FeaturedRestaurants h2 {
+    color: var(--theme-gray-900, #212121);
+    text-align: center;
+
+    /* Headline 4 Bold */
+    font-size: 43px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 112%;
+}
+
+.Features {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    row-gap: 64px;
+}
+
+.imgEat {
+    border-radius: 16px;
+}
+
+.Resturan {
+    width: clamp(200px, 100%, 357px);
+    min-height: 463px;
+}
+
+.imgesFeatures {
+    width: 100%;
+    height: 301px;
+    position: relative;
+}
+
+.discountResturan {
+    width: clamp(200px, 100%, 231px);
+    height: 46px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.diuscontOff {
+    width: 118px;
+    height: 46px;
+    background-color: #F17228;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.diuscontOff .fa {
+    color: var(--theme-white, #FFF);
+    font-size: 18px;
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.discountResturan h4 {
+    color: var(--theme-white, #FFF);
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Fast {
+    width: 96px;
+    height: 46px;
+    background-color: #FFB20E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.Fast .fa {
+    color: var(--theme-white, #FFF);
+    font-size: 18px;
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.Fast h4 {
+    color: var(--theme-white, #FFF);
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.imgesFeatures .imgEat {
+    width: 100%;
+    height: 100%;
+}
+
+.resturanimgs {
+    display: flex;
+    column-gap: 26px;
+    margin-top: 28px;
+}
+
+.resturanTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.resturanTitle h3 {
+    color: var(--theme-gray-800, #424242);
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.wisheli {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.wisheli .fa {
+    color: var(--theme-primary, #FFB30E);
+    font-size: 22px;
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 106%;
+    cursor: pointer;
+}
+
+.wisheli p {
+    color: var(--theme-primary, #FFB30E);
+
+    /* Headline 6 */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    line-height: 120%;
+}
+
+.btn {
+    margin-top: 32px;
+    border: unset;
+    cursor: pointer;
+}
+
+.tomorrow {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(241, 114, 40, 0.20);
+    color: var(--theme-warning, #F17228);
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.now {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(121, 185, 60, 0.20);
+    color: var(--theme-success, #79B93C);
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.ViewAll {
+    width: 122px;
+    height: 36px;
+    margin-top: 88px;
+    color: var(--theme-white, #FFF);
+    text-align: center;
+
+    /* Button Bold */
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 14px;
+    background: linear-gradient(141deg, #FFBA26 0%, #FF9A0E 100%);
+
+    /* Shadow/1 */
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    border: unset;
+}

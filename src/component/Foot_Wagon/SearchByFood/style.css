@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.SearchByFood {
+    width: 100%;
+    min-height: 434px;
+    background-color: #FEFAF1;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+
+.divSearchByFoods {
+    width: clamp(200px, 100%, 218px);
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+.divSearchByFoods img {
+    width: clamp(200px, 100%, 218px);
+    border-radius: 50%;
+}
+
+.mySwiper {
+    width: clamp(200px, 100%, 1300px);
+    height: 100%;
+}
+
+.swiperByFoot {
+    border: 1px solid black;
+}
+
+.SipersSlidess {
+    width: clamp(200px, 100%, 1360px);
+    margin: 0 auto;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.SipersSlidess h2 {
+    color: var(--theme-gray-900, #212121);
+    text-align: center;
+
+    /* Headline 4 Bold */
+    font-size: clamp(30px, 5vw, 43px);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%;
+}
+
+.SipersSlidess div {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.SipersSlidess div h3 {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--theme-primary, #FFB30E);
+    text-align: center;
+
+    /* Button Bold */
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.SipersSlidess div button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(141deg, #FFBA26 0%, #FF9A0E 100%);
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    border: unset;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .SipersSlidess {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mySwiper{
+        width: 230px;
+    }
+}

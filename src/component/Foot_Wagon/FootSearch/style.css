@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.FootSearch {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.FootLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.FootLogo h2 {
+    width: clamp(200px, 100%, 272px);
+    color: #F17228;
+    font-size: clamp(20px, 5vw, 30.11px);
+}
+
+.FootLogo span {
+    color: #FFB30E;
+    font-size: clamp(20px, 5vw, 30.11px);
+}
+
+.Deviler_to {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.Deviler_to h3 {
+    color: var(--theme-gray-800, #424242);
+    text-align: center;
+
+    /* Button Bold */
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.Deviler_to .fa {
+    color: var(--theme-primary, #FFB30E);
+    text-align: center;
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 140%;
+    margin-left: 12px;
+}
+
+.Deviler_to p {
+    color: var(--theme-gray-800, #424242);
+    text-align: center;
+
+    /* Subtitle 1 */
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Open Sans;
+    line-height: 140%;
+    margin-left: 9px;
+}
+
+.Deviler_to h4 {
+    color: var(--theme-gray-800, #424242);
+    text-align: center;
+
+    /* Body 1 Bold */
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 140%;
+    margin-left: 4px;
+}
+
+.SearchFoot {
+    width: clamp(200px, 100%, 272px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.SearchFoot label {
+    color: var(--theme-primary, #FFB30E);
+    text-align: center;
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.SearchFoot input {
+    width: 100px;
+    color: var(--theme-gray-800, #424242);
+    text-align: center;
+
+    /* Button Bold */
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.SearchFoot button {
+    width: 100px;
+    margin-left: 30px;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border: unset;
+    /* Shadow/1 */
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    text-align: center;
+    /* Button Bold */
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 100%;
+    cursor: pointer;
+    color: #FFB30E;
+}
+
+.SearchFoot button .fa {
+    text-align: center;
+    font-size: clamp(15px, 5vw, 18px);
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    line-height: 100%;
+    color: #FFB30E;
+}

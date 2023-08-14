@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.TheDaysWork {
+    width: 100%;
+    min-height: 456px;
+    background-color: #FEEFD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TheDays {
+    display: flex;
+    width: clamp(200px, 100%, 1230px);
+    min-height: 246px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 46px;
+    background: #FFF;
+
+    /* Object shadow 2 */
+    box-shadow: 0px 27px 82px 0px rgba(255, 174, 0, 0.28), 0px 14px 15px 0px rgba(255, 174, 0, 0.01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 55px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.TheDays h2 {
+
+    /* Headline 5 Bold */
+    font-size: 35px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Daily_Discounts {
+    width: clamp(200px, 100%, 318px);
+    height: 136px;
+}
+
+.Live_Tracing {
+    width: clamp(200px, 100%, 282px);
+    height: 136px;
+
+}
+
+.Quick_Delivery {
+    width: clamp(200px, 100%, 296px);
+    height: 136px;
+
+}
+
+.line {
+    width: 2px;
+    height: 96px;
+    flex-shrink: 0;
+    background-color: #CFCFCF;
+}
+
+.Works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-image: linear-gradient(#FB3C00, #FFB800);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media screen and (max-width:430px) {
+    .TheDays {
+        display: flex;
+        justify-content: start;
+    }
+
+    .Works{
+        column-gap: unset;
+    }
+}
+
+@media screen and (max-width:1136px) {
+    .line {
+        display: none;
+    }
+}

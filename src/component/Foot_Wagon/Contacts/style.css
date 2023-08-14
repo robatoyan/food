@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Contacts {
+    width: 100%;
+    min-height: 936px;
+    background: var(--theme-gray-900, #212121);
+}
+
+.contactsBox {
+    width: clamp(200px, 100%, 1480px);
+    margin: 0 auto;
+    margin-top: 99px;
+}
+
+.OurTopSities {
+    display: flex;
+    flex-direction: column;
+}
+
+.OurTopSities h2 {
+    color: white;
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.citiesAll {
+    display: flex;
+    justify-content: center;
+    column-gap: 234px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.citiesAll ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: var(--theme-gray-100, white);
+
+    /* Button */
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.AllOfUsContacts {
+    padding-top: 63px;
+    padding-bottom: 63px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.contacts_Data {
+    display: flex;
+    column-gap: 116px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.contacts_Data h3 {
+    color: white;
+
+    /* Headline 6 Bold */
+    font-size: 22px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.contacts_Data ul {
+    color: var(--theme-gray-100, white);
+
+    /* Button */
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    list-style: none;
+    margin-top: 16px;
+}
+
+.follow_Us {
+    width: clamp(200px, 100%, 483px);
+}
+
+.follow_Us h2 {
+    color: white;
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.faIcons {
+    display: flex;
+    color: var(--theme-gray-100, white);
+    font-size: 24px;
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    column-gap: 16px;
+    margin-top: 40px;
+}
+
+.follow_Us h3 {
+    color: #BBB;
+
+    /* Body 1 Bold */
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 43px;
+}
+
+.Email {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.EnterEmail {
+    width: clamp(200px, 100%, 334px);
+    height: 60px;
+    position: relative;
+    border-radius: 8px;
+    background: var(--theme-gray-800, #424242);
+    overflow: hidden;
+}
+
+.EnterEmail .fa {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    color: #ADADAD;
+    font-size: 24px;
+    font-family: Font Awesome 5 Free;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.EnterEmail input {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    color: #ADADAD;
+
+    /* Body 1 */
+    font-size: 18px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    outline: none;
+    border: unset;
+    background-color: transparent;
+}
+
+.Email button {
+    border-radius: 8px;
+    background: var(--yellow-button, linear-gradient(150deg, #FFB800 0%, #FF8A00 100%));
+
+    /* Button shadow ! */
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    display: flex;
+    width: 133px;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: unset;
+    display: flex;
+    width: 130px;
+    padding: 21px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.Your_Company {
+    color: var(--theme-gray-100, white);
+    font-size: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.Your_Company div {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.Your_Company .fa {
+    color: #FDBC30;
+}
+@media screen and (max-width:500px) {
+    .Your_Company div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .Your_Company{
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.InstalTheApp {
+    width: 100%;
+    min-height: 659px;
+    background: linear-gradient(208deg, #FFAE00 0%, #FF8A00 100%);
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.instalAppReducer {
+    height: 550px;
+    background-image: url("/public/img/img1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.installAppIpone {
+    width: clamp(200px, 100%, 1200px);
+    min-height: 658px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.imgIpone {
+    width: clamp(200px, 100%, 648px);
+    min-height: 300px;
+    display: flex;
+    margin-top: 127px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ipone {
+    height: 350px;
+}
+
+.ipone1 {
+    width: 288px;
+}
+
+.download {
+    width: clamp(200px, 100%, 479px);
+    min-height: 263px;
+    margin-top: 160px;
+}
+
+.download h2 {
+
+    /* Headline 2 Bold */
+    font-size: clamp(40px, 5vw, 68px);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+    color: #FF8A00;
+}
+
+.download p {
+    color: #827E7E;
+
+    /* Body 1 */
+    font-size: clamp(16px, 5vw, 18px);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 8px;
+}
+
+.downoladsImg {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1225px) {
+    .instalAppReducer {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .ipone {
+        width: 190px;
+        height: 200px;
+    }
+
+    .ipone1 {
+        width: 190px;
+        height: 200px;
+    }
+
+    .imgIpone {
+        margin-top: 27px;
+    }
+
+    .download {
+        margin-top: 60px;
+    }
+
+    .instalAppReducer {
+        height: 800px;
+    }
+
+    .downoladsImg {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .instalAppReducer {
+        height: 850px;
+    }
+}

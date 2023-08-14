@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ToUseFoot {
+    width: 100%;
+    min-height: 358px;
+    background-color: #FFFAF0;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.ToUseFoot h2 {
+    margin-top: 80px;
+    color: #F17228;
+    text-align: center;
+
+    /* Headline 4 Bold */
+    font-size: clamp(30px, 5vw, 43px);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 112%;
+}
+
+.ToUseWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 71px;
+    column-gap: 32px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+.ToUse {
+    width: clamp(200px, 100%, 307px);
+    min-height: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3px;
+    text-align: center;
+}
+
+.ToUse h3 {
+    color: #434343;
+    text-align: center;
+
+    /* Headline 6 Bold */
+    font-size:clamp(19px,5vw, 22px);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.ToUse p {
+    color: var(--theme-gray-500, #9E9E9E);
+    text-align: center;
+
+    /* Body 1 */
+    font-size: 18px;
+    font-family: Open Sans;
+    line-height: 140%;
+}
